@@ -23,8 +23,8 @@ a {
     color:inherit;
     padding:19px 30px;
     border:3px transparent solid;
-    -webkit-transition: all .3s ease;
-    transition: all .5s ease;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
     color:#eee;
 }
 
@@ -32,8 +32,8 @@ a:hover {
     color:white !important;
     font-size:105%;
     border:1px white solid;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
     font-weight:bold;
     opacity:1;
 }

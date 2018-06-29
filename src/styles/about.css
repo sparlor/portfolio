@@ -7,21 +7,22 @@
 
 img#sparlor {
     position: absolute;
-    left:50px;;
+    left:50px;
+    padding-top:30px;
 }
 
 p#aboutContent {
     width: 800px;
     text-align: left;
-    margin: 85px 60px 0px auto;
+    margin: 105px 60px 0px auto;
     line-height: 35px;
 }
 
 h1#aboutContent {
     width:800px;
     text-align:left;
-    margin: 40px 60px 0px auto;
+    margin: 0px 60px 0px auto;
     position: relative;
-    top:60px;
+    top:90px;
     letter-spacing: 5px;
 }
