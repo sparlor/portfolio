@@ -1,0 +1,27 @@
+.about {
+    height:350px;
+    text-align:center;
+    width:100%;
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+img#sparlor {
+    position: absolute;
+    left:50px;;
+}
+
+p#aboutContent {
+    width: 800px;
+    text-align: left;
+    margin: 85px 60px 0px auto;
+    line-height: 35px;
+}
+
+h1#aboutContent {
+    width:800px;
+    text-align:left;
+    margin: 40px 60px 0px auto;
+    position: relative;
+    top:60px;
+    letter-spacing: 5px;
+}

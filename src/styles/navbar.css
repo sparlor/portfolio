@@ -1,0 +1,39 @@
+.navbar {
+    font-family:'Nanum Gothic', sans-serif;
+    text-decoration: none !important;
+    width:100%;
+    margin:auto;
+    text-align:right;
+    font-size: 1em;
+    text-transform:uppercase;
+    padding:20px 0px;
+    /*border-bottom:2px #eee solid;*/
+    background-color:#212529;
+    position: fixed;
+    background: rgb(33,37,41, 0.6);
+
+}
+
+/*.navScroll {
+    background-color: #212529;
+}*/
+
+a {
+    text-decoration: none;
+    color:inherit;
+    padding:19px 30px;
+    border:3px transparent solid;
+    -webkit-transition: all .3s ease;
+    transition: all .5s ease;
+    color:#eee;
+}
+
+a:hover {
+    color:white !important;
+    font-size:105%;
+    border:1px white solid;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-weight:bold;
+    opacity:1;
+}
