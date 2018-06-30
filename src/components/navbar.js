@@ -7,6 +7,26 @@ const NavigationScroll = () => {
     }
 }
 
+const AboutScroll = () => {
+    const navElement = document.getElementById('aboutMe');
+    navElement.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+const ProjectScroll = () => {
+    const navElement = document.getElementById('project1');
+    navElement.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+const HeaderScroll = () => {
+    const navElement = document.getElementById('top');
+    navElement.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+const SkillsScroll = () => {
+    const navElement = document.getElementById('skill');
+    navElement.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
 window.onscroll = function() {
     NavigationScroll()
 };
@@ -15,13 +35,12 @@ const Navbar = () => {
 
         return(
             <div className="navbar">
-                <a href='#' id='logo'>Scotty Parlor</a>
-                <a href='#aboutMe'>About</a>
-                <a href='div#projectTop'>Projects</a>
-                <a href='#'>Languages</a>
+                <a name='header' id='logo' onClick={HeaderScroll}>Scotty Parlor</a>
+                <a name='about' onClick={AboutScroll}>About</a>
+                <a name='project1' onClick={ProjectScroll}>Projects</a>
+                <a name='skill' onClick={SkillsScroll}>Skills</a>
                 <a href='#'>Contact</a>
             </div>
         );
     }
-
 export default Navbar;

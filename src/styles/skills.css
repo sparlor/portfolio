@@ -1,0 +1,24 @@
+.skill-set {
+    background-color:white;
+    height:350px;
+}
+
+#icon {
+    width:7%;
+    padding:20px 50px;
+}
+
+.icon-area {
+    margin:0px auto;
+    width:90%;
+    text-align:center;
+}
+
+#heading {
+    text-align:center;
+    font-family:'Nanum Gothic', sans-serif;
+    text-transform:uppercase;
+    border-top:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+
+}
