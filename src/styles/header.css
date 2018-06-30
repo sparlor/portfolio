@@ -2,6 +2,9 @@
     background-image: url('../images/s_wall.jpg');
     background-size:cover;
     height:350px;
-    background-position: center;
+    background-position: center !important;
+    /*background-attachment: fixed;*/
+    background-repeat:no-repeat;
+
 }
 

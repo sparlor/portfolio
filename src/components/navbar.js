@@ -15,8 +15,9 @@ const Navbar = () => {
 
         return(
             <div className="navbar">
+                <a href='#' id='logo'>Scotty Parlor</a>
                 <a href='#aboutMe'>About</a>
-                <a href='#'>Projects</a>
+                <a href='div#projectTop'>Projects</a>
                 <a href='#'>Languages</a>
                 <a href='#'>Contact</a>
             </div>

@@ -14,11 +14,12 @@
 
 }
 
+
 /*.navScroll {
     background-color: #212529;
 }*/
 
-a {
+.navbar a {
     text-decoration: none;
     color:inherit;
     padding:19px 30px;
@@ -28,7 +29,19 @@ a {
     color:#eee;
 }
 
-a:hover {
+a#logo {
+    float: left;
+    padding: 0px;
+    border: none;
+    position: relative;
+    left:40px;
+}
+
+a#logo:hover {
+    font-size:1em;
+}
+
+.navbar a:hover {
     color:white !important;
     font-size:105%;
     border:1px white solid;
