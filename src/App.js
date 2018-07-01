@@ -7,6 +7,7 @@ import Projects from './components/projects'
 import grocery from './images/shopping.jpg';
 import budget from './images/budget.jpg';
 import Skills from './components/skills';
+import Contact from './components/contact';
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
       This application is designed to show how a front-end application can be paired with a backend for user creation and personal values. This is meant to play with without permanently saving to a database.
       </Projects>
       <Skills />
+      <Contact />
     </div>
     );
   }
