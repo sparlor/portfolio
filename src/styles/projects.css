@@ -52,3 +52,46 @@ a#projectLink:hover {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
+
+button#projectButton {
+    display:none;
+}
+
+
+@media handheld, screen and (max-width: 440px) {    
+    img#projectImage {
+        display:none;
+
+    }
+
+    h1#appHeading {
+        width:100%;
+        text-align: center;
+        display: block;
+        position: inherit;
+        border-bottom:1px solid #ccc;
+        padding-bottom:15px;
+    }
+
+    p#listSummary {
+        margin:0px;
+        text-align: center; 
+        position: inherit;
+        width:100%;
+   }
+
+   button#projectButton {
+       display:block;
+       color: white;
+       width: 40%;
+       height: 40px;
+       display: block;
+       align-items: center;
+       margin: 15px auto;
+       border: 1px solid #ccc;
+       background-color: #666;
+       text-transform:uppercase;
+       font-family: 'Nanum Gothic', sans-serif;
+
+   }
+}

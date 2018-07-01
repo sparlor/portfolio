@@ -27,3 +27,30 @@ h1#aboutContent {
     top:90px;
     letter-spacing: 5px;
 }
+
+
+@media handheld, screen and (max-width: 440px) {    
+    .about {
+        height:700px;
+    }
+
+    img#sparlor {
+        position: inherit;
+    }
+
+    h1#aboutContent {
+        text-align:center;
+        width:100%;
+        margin:0px;
+        top:0px;
+        border-bottom:1px solid #ccc;
+        padding-bottom:15px;
+    }
+
+    p#aboutContent {
+        width:100%;
+        text-align:center;
+        margin:0px;
+        padding-top:15px;
+    }
+}

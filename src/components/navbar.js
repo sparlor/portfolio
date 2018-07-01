@@ -28,7 +28,7 @@ const SkillsScroll = () => {
 }
 
 window.onscroll = function() {
-    NavigationScroll()
+    {NavigationScroll}
 };
 
 const Navbar = () => {

@@ -8,6 +8,7 @@ const Projects = (props) => {
             <h1 id = "appHeading">{props.projectName}</h1>
             <img id="projectImage" src={props.image}/>
             <p id = "listSummary">{props.children}</p>
+            <button id = "projectButton">Demo</button>
             </a>
         </div>
     )
