@@ -1,6 +1,13 @@
 .skill-set {
     background-color:white;
-    height:350px;
+    height:auto;
+    min-height:350px;
+}
+
+.fab {
+    font-size:6vw;
+    width:17%;
+    margin:30px auto;
 }
 
 #icon {
@@ -20,9 +27,92 @@
     text-transform:uppercase;
 }
 
+/*icon hovering*/
+
+i.fab.fa-react:hover {
+    color:#61dafb;
+}
+
+i.fab.fa-java:hover {
+    color:#E72E35;
+
+}
+
+i.fab.fa-python:hover {
+    color:#649dcb;
+}
+
+
+i.fab.fa-js:hover {
+    color:#e80a89;
+
+}
+
+i.fab.fa-node:hover {
+    color:#026e00;
+}
+
+i.fab.fa-jenkins:hover {
+    color:#D13A39;
+
+}
+
+i.fab.fa-css3:hover {
+    color:#0E65AF;
+
+}
+
+i.fab.fa-linux:hover {
+    color:#FABF2D;
+
+}
+
+i.fab.fa-windows:hover {
+    color:#0067b8;
+
+}
+
+i.fab.fa-apple:hover {
+    color:#666666;
+}
+
+i.fab.fa-vuejs:hover {
+    color:#47B784;
+}
+
+i.fab.fa-html5:hover {
+    color:#E24E30;
+}
+
+
+
+
+
+
+
+
+
+span#text {
+    font-size: 15px;
+    display: block;
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+
 @media handheld, screen and (max-width: 900px) {    
     #icon {
         width:15%;
         padding:20px 20px;
+    }
+
+    div#skill {
+        min-height:350px;
+        height:auto;
+    }
+
+    .fab {
+        font-size:15vw;
+        width:30%;
+        margin:30px auto;
     }
 }
