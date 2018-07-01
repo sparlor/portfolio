@@ -6,36 +6,38 @@
 }
 
 img#sparlor {
-    position: absolute;
-    left:50px;
-    padding-top:30px;
+    float: left;
+    padding: 20px 60px 0px 60px;
     z-index:-1;
 }
 
 p#aboutContent {
-    width: 800px;
+    width: 90%;
     text-align: left;
-    margin: 105px 60px 0px auto;
     line-height: 35px;
 }
 
 h1#aboutContent {
-    width:800px;
+    width: 90%;
     text-align:left;
-    margin: 0px 60px 0px auto;
-    position: relative;
-    top:90px;
     letter-spacing: 5px;
+    padding-top:90px;
+    margin:0px;
 }
 
 
 @media handheld, screen and (max-width: 900px) {    
     .about {
-        height:700px;
+        height:auto;
+        padding-bottom:15px;
     }
 
     img#sparlor {
         position: inherit;
+        padding:0px;
+        float:none;
+        width:60%;
+        padding:20px;
     }
 
     h1#aboutContent {
@@ -45,6 +47,7 @@ h1#aboutContent {
         top:0px;
         border-bottom:1px solid #ccc;
         padding-bottom:15px;
+        padding-top:0px;
     }
 
     p#aboutContent {

@@ -5,10 +5,12 @@ const Projects = (props) => {
     return (
         <div className = "projects" id = {props.id}>
             <a href='#' id='projectLink'>
-            <h1 id = "appHeading">{props.projectName}</h1>
             <img id="projectImage" src={props.image}/>
+            <div className = "content">
+            <h1 id = "appHeading">{props.projectName}</h1>
             <p id = "listSummary">{props.children}</p>
             <button id = "projectButton">Demo</button>
+            </div>
             </a>
         </div>
     )
