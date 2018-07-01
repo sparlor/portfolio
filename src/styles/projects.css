@@ -115,7 +115,6 @@ button#projectButton {
     position: relative;
     width: auto;
     height: auto;
-    vertical-align: unset;
     left:0px;
     padding:0px;
 }
