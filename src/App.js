@@ -23,7 +23,7 @@ class App extends Component {
       This is a shopping list application made with React. Functionality includes Add, remove, and strike-through.
       </Projects>
       <Projects
-      projectName = "Better Budget App"
+      projectName = "Budget App"
       image = {budget}
       >
       This application is designed to show how a front-end application can be paired with a backend for user creation and personal values. This is meant to play with without permanently saving to a database.

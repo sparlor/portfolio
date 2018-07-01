@@ -58,7 +58,7 @@ button#projectButton {
 }
 
 
-@media handheld, screen and (max-width: 440px) {    
+@media handheld, screen and (max-width: 900px) {    
     img#projectImage {
         display:none;
 
