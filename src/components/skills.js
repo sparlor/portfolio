@@ -1,27 +1,10 @@
 import React from 'react';
 import LangStyle from '../styles/skills.css';
-import reactjs from '../images/icons/react.svg';
-import java from '../images/icons/java.svg';
-import python from '../images/icons/python.svg';
-import js from '../images/icons/js.svg';
-import node from '../images/icons/node.svg';
-import jenkins from '../images/icons/jenkins.svg';
-import css3 from '../images/icons/css3.svg';
-import linux from '../images/icons/linux.svg';
-import microsoft from '../images/icons/microsoft.svg';
-import apple from '../images/icons/apple.svg';
-import vue from '../images/icons/vue.svg';
-import html5 from '../images/icons/html5.svg';
-
-
-
-
-
-
 
 const Skills = () => {
     return(
         <div className="skill-set" id='skill'>
+            <div id = "skill-anchor" style = {{position:'relative', top:-59}}></div>
             <h1 id = "heading">Skills and Experience</h1>
 
             <div className = "icon-area">

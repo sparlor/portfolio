@@ -2,7 +2,7 @@ import React from 'react';
 import style from '../styles/navbar.css';
 
 const AboutScroll = () => {
-    const navElement = document.getElementById('aboutMe');
+    const navElement = document.getElementById('about-anchor');
     navElement.scrollIntoView({behavior:"smooth", block:"start"});
 }
 
@@ -17,8 +17,9 @@ const HeaderScroll = () => {
 }
 
 const SkillsScroll = () => {
-    const navElement = document.getElementById('skill');
+    const navElement = document.getElementById('skill-anchor');
     navElement.scrollIntoView({behavior:"smooth", block:"start"});
+
 }
 
 const ContactScroll = () => {

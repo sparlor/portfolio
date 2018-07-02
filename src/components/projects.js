@@ -3,7 +3,8 @@ import ProjectStyle from '../styles/projects.css';
 
 const Projects = (props) => {
     return (
-        <div className = "projects" id = {props.id}>
+        <div className = "projects">
+            <div id = {props.id} style = {{position:'absolute', top:-59}}></div>
             <a href='#' id='projectLink'>
             <img id="projectImage" src={props.image}/>
             <div className = "content">

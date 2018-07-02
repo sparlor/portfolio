@@ -25,7 +25,7 @@ class App extends Component {
       >
       This application was my first introduction to React. This game provides a status of which players turn, a history of the moves in the match, and a winner at the end.
       </Projects>
-      <Projects
+      <Projects id = "project1"
       projectName = "Shopping List"
       image = {grocery}
       >
