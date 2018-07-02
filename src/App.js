@@ -19,13 +19,13 @@ class App extends Component {
       <Header />
       <About />
 
-      <Projects id = "tic-tac-toe"
+      <Projects id = "project1"
       projectName = "Tic-Tac-Toe"
       image = {tictactoe}
       >
       This application was my first introduction to React. This game provides a status of which players turn, a history of the moves in the match, and a winner at the end.
       </Projects>
-      <Projects id = "project1"
+      <Projects
       projectName = "Shopping List"
       image = {grocery}
       >
