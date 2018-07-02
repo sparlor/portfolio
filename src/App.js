@@ -8,6 +8,7 @@ import grocery from './images/shopping.jpg';
 import budget from './images/budget.jpg';
 import Skills from './components/skills';
 import Contact from './components/contact';
+import tictactoe from './images/tictactoe.jpg';
 
 
 class App extends Component {
@@ -17,6 +18,13 @@ class App extends Component {
       <Navbar />
       <Header />
       <About />
+
+      <Projects id = "tic-tac-toe"
+      projectName = "Tic-Tac-Toe"
+      image = {tictactoe}
+      >
+      This application was my first introduction to React. This game provides a status of which players turn, a history of the moves in the match, and a winner at the end.
+      </Projects>
       <Projects id = "project1"
       projectName = "Shopping List"
       image = {grocery}
