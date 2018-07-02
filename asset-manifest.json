@@ -1,22 +1,10 @@
 {
   "main.css": "static/css/main.e4ac3311.css",
   "main.css.map": "static/css/main.e4ac3311.css.map",
-  "main.js": "static/js/main.c44a8d25.js",
-  "main.js.map": "static/js/main.c44a8d25.js.map",
-  "static/media/apple.svg": "static/media/apple.6427d8ce.svg",
+  "main.js": "static/js/main.81d55233.js",
+  "main.js.map": "static/js/main.81d55233.js.map",
   "static/media/budget.jpg": "static/media/budget.c9b52428.jpg",
-  "static/media/css3.svg": "static/media/css3.62ff7e6b.svg",
-  "static/media/html5.svg": "static/media/html5.b7dd696a.svg",
-  "static/media/java.svg": "static/media/java.27e864da.svg",
-  "static/media/jenkins.svg": "static/media/jenkins.ab6a1751.svg",
-  "static/media/js.svg": "static/media/js.6fba3f04.svg",
-  "static/media/linux.svg": "static/media/linux.683fd64c.svg",
-  "static/media/microsoft.svg": "static/media/microsoft.c1492dc8.svg",
-  "static/media/node.svg": "static/media/node.bae3f091.svg",
   "static/media/profile.png": "static/media/profile.eb8bde01.png",
-  "static/media/python.svg": "static/media/python.5af59229.svg",
-  "static/media/react.svg": "static/media/react.c1f41317.svg",
   "static/media/s_wall.jpg": "static/media/s_wall.569248bf.jpg",
-  "static/media/shopping.jpg": "static/media/shopping.f37daafb.jpg",
-  "static/media/vue.svg": "static/media/vue.748cf839.svg"
+  "static/media/shopping.jpg": "static/media/shopping.f37daafb.jpg"
 }
