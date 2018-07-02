@@ -1,12 +1,6 @@
 import React from 'react';
 import style from '../styles/navbar.css';
 
-const NavigationScroll = () => {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 10) {
-        document.getElementsByClassName("navbar").className="navScroll";
-    }
-}
-
 const AboutScroll = () => {
     const navElement = document.getElementById('aboutMe');
     navElement.scrollIntoView({behavior:"smooth", block:"start"});
@@ -27,19 +21,20 @@ const SkillsScroll = () => {
     navElement.scrollIntoView({behavior:"smooth", block:"start"});
 }
 
-window.onscroll = function() {
-    {NavigationScroll}
-};
+const ContactScroll = () => {
+    const navElement = document.getElementById('contactApp');
+    navElement.scrollIntoView({behavior:"smooth", block:"start"});
+}
 
 const Navbar = () => {
 
         return(
-            <div className="navbar">
+            <div className="navbar" id = "main-nav">
                 <a name='header' id='logo' onClick={HeaderScroll}>Scotty Parlor</a>
                 <a name='about' onClick={AboutScroll}>About</a>
-                <a name='project1' onClick={ProjectScroll}>Projects</a>
+                <a name='project' onClick={ProjectScroll}>Projects</a>
                 <a name='skill' onClick={SkillsScroll}>Skills</a>
-                <a href='#'>Contact</a>
+                <a name='contact' onClick={ContactScroll}>Contact</a>
             </div>
         );
     }

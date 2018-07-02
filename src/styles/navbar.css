@@ -10,7 +10,6 @@
     /*border-bottom:2px #eee solid;*/
     background-color:#212529;
     position: fixed;
-    background: rgb(33,37,41, 0.6);
     z-index:1000;
 
 }
@@ -51,6 +50,10 @@ a#logo:hover {
     transition: all .2s ease;
     font-weight:bold;
     opacity:1;
+}
+
+div#main-nav {
+    background: rgb(33,37,41, 0.6);
 }
 
 

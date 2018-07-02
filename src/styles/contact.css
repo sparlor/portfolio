@@ -1,5 +1,5 @@
 .contact {
-    height:350px;
+    height:auto;
     background-color:#212529;
     color:white;
     font-family: 'Nanum Gothic', sans-serif;
@@ -8,7 +8,40 @@
     text-transform:uppercase;
 }
 
+.iconLink {
+    color:inherit;
+}
+
 h1#heading {
     margin:0px !important;
     padding-top:20px;
+}
+
+.far {
+    font-size: 6vw;
+    width: 17%;
+    margin: 30px auto;
+}
+
+i#contactIcon {
+    font-size: 3vw;
+    padding: 30px 0px;
+}
+
+@media handheld, screen and (max-width: 900px) {    
+
+    h1#heading {
+        margin: 0px !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    i#contactIcon {
+        font-size: 15vw;
+        padding: 40px 0px;
+        width: 20%;
+        min-height: 60px;
+        margin: 0px auto;
+    }
 }
