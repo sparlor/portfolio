@@ -9,6 +9,11 @@
     width:17%;
     margin:30px auto;
 }
+.fas {
+    font-size:6vw;
+    width:17%;
+    margin:30px auto;
+}
 
 #icon {
     width:7%;
@@ -27,70 +32,64 @@
     text-transform:uppercase;
 }
 
-/*icon hovering*/
-
-i.fab.fa-react:hover {
+i.fab.fa-react {
     color:#61dafb;
 }
 
-i.fab.fa-java:hover {
+i.fab.fa-java {
     color:#E72E35;
 
 }
 
-i.fab.fa-python:hover {
+i.fab.fa-python {
     color:#649dcb;
 }
 
 
-i.fab.fa-js:hover {
+i.fab.fa-js {
     color:#e80a89;
 
 }
 
-i.fab.fa-node:hover {
+i.fab.fa-node {
     color:#026e00;
 }
 
-i.fab.fa-jenkins:hover {
+i.fab.fa-jenkins {
     color:#D13A39;
 
 }
 
-i.fab.fa-css3:hover {
+i.fab.fa-css3 {
     color:#0E65AF;
 
 }
 
-i.fab.fa-linux:hover {
+i.fab.fa-linux {
     color:#FABF2D;
 
 }
 
-i.fab.fa-windows:hover {
+i.fab.fa-windows {
     color:#0067b8;
 
 }
 
-i.fab.fa-apple:hover {
+i.fab.fa-apple {
     color:#666666;
 }
 
-i.fab.fa-vuejs:hover {
+i.fab.fa-vuejs {
     color:#47B784;
 }
 
-i.fab.fa-html5:hover {
+i.fab.fa-html5 {
     color:#E24E30;
 }
 
-
-
-
-
-
-
-
+i.fas.fa-code-branch {
+    color:#f05033;
+}
 
 span#text {
     font-size: 15px;
@@ -116,58 +115,9 @@ span#text {
         margin:30px auto;
     }
 
-    i.fab.fa-react {
-        color:#61dafb;
-    }
-    
-    i.fab.fa-java {
-        color:#E72E35;
-    
-    }
-    
-    i.fab.fa-python {
-        color:#649dcb;
-    }
-    
-    
-    i.fab.fa-js {
-        color:#e80a89;
-    
-    }
-    
-    i.fab.fa-node {
-        color:#026e00;
-    }
-    
-    i.fab.fa-jenkins {
-        color:#D13A39;
-    
-    }
-    
-    i.fab.fa-css3 {
-        color:#0E65AF;
-    
-    }
-    
-    i.fab.fa-linux {
-        color:#FABF2D;
-    
-    }
-    
-    i.fab.fa-windows {
-        color:#0067b8;
-    
-    }
-    
-    i.fab.fa-apple {
-        color:#666666;
-    }
-    
-    i.fab.fa-vuejs {
-        color:#47B784;
-    }
-    
-    i.fab.fa-html5 {
-        color:#E24E30;
+    .fas {
+        font-size:15vw;
+        width:30%;
+        margin:30px auto;
     }
 }

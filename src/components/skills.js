@@ -20,6 +20,9 @@ const Skills = () => {
                 <i class="fab fa-apple"><span id ='text'>OSX</span></i>
                 <i class="fab fa-vuejs"><span id ='text'>Vue.js</span></i>
                 <i class="fab fa-html5"><span id ='text'>HTML5</span></i>
+                <i class="fas fa-code-branch"><span id='text'>Git</span></i>
+
+
             </div>
         </div>
 
